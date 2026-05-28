@@ -21,7 +21,7 @@ export default function BlogsPage() {
       try {
         const q = query(
           collection(db, "blogs"),
-          where("website", "==", "VAH"),
+          where("website", "==", "buildchemsolutionsinc"),
           orderBy("createdAt", "desc"),
         );
         const querySnapshot = await getDocs(q);

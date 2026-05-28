@@ -22,7 +22,7 @@ export default function BlogDetailPage() {
         const q = query(
           collection(db, "blogs"),
           where("slug", "==", slug),
-          where("website", "==", "VAH"),
+          where("website", "==", "buildchemsolutionsinc"),
           limit(1),
         );
         const querySnapshot = await getDocs(q);
