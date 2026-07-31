@@ -8,6 +8,7 @@ import { Footer } from "@/components/homepage/footer";
 import { AboutSection } from "@/components/homepage/about-section";
 import Navbar from "@/components/homepage/nav";
 import { ServicesSection } from "@/components/homepage/services-section";
+import { KeyProjectsSection } from "@/components/homepage/key-projects-section";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         <Hero />
         <LogoSection />
         <AboutSection />
+        <KeyProjectsSection />
         <ServicesSection />
         <SolutionsSection />
         <ReelsSection />
