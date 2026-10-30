@@ -58,7 +58,7 @@ export function Hero() {
       <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/60 to-black/75" />
 
       {/* Content */}
-      <div className="relative z-10 flex h-full flex-col pt-20">
+      <div className="relative z-10 flex h-full flex-col pt-32">
         <div className="flex flex-1 items-center max-w-7xl mx-auto w-full px-6 md:px-12 lg:px-16">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 xl:gap-20 w-full items-center">
             {/* LEFT — Text */}

@@ -1,0 +1,85 @@
+/* ==========================================
+   ANNOUNCEMENT BAR — Buildchem Branded
+   ========================================== */
+.announcementBar {
+  background: linear-gradient(90deg, #003366 0%, #0055aa 100%);
+  color: #ffffff;
+  padding: 12px 20px;
+  width: 100%;
+  z-index: 9999;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  position: fixed;
+  top: 80px;
+  left: 0;
+}
+
+.content {
+  max-width: 1320px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.icon {
+  font-size: 16px;
+  flex-shrink: 0;
+}
+
+.text {
+  font-size: 14.5px;
+  line-height: 1.6;
+  font-weight: 500;
+  margin: 0;
+}
+
+.badge {
+  display: inline-block;
+  background: #ffd100;
+  color: #002244;
+  font-weight: 700;
+  padding: 4px 14px;
+  border-radius: 50px;
+  margin: 0 5px;
+  white-space: nowrap;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 13.5px;
+}
+
+/* ─── TABLET ─── */
+@media (max-width: 768px) {
+  .announcementBar {
+    padding: 12px 15px;
+  }
+  .text {
+    font-size: 13.5px;
+  }
+  .badge {
+    padding: 4px 12px;
+    font-size: 12.5px;
+    margin: 3px 4px;
+  }
+}
+
+/* ─── MOBILE — Hindi Putol, Sakto sa Screen ─── */
+@media (max-width: 480px) {
+  .announcementBar {
+    padding: 14px 12px;
+  }
+  .content {
+    gap: 5px;
+  }
+  .text {
+    font-size: 12.5px;
+    line-height: 1.7;
+  }
+  .badge {
+    padding: 3px 10px;
+    font-size: 11.5px;
+    margin: 4px auto;
+  }
+}

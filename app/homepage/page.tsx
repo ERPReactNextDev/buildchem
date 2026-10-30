@@ -9,11 +9,13 @@ import { AboutSection } from "@/components/homepage/about-section";
 import Navbar from "@/components/homepage/nav";
 import { ServicesSection } from "@/components/homepage/services-section";
 import { KeyProjectsSection } from "@/components/homepage/key-projects-section";
+import AnnouncementBar from "@/components/homepage/announcement-bar"; // ✅ Bago
 
 export default function Home() {
   return (
     <>
-    <Navbar />
+      <Navbar />
+      <AnnouncementBar />
       <main>
         <Hero />
         <LogoSection />
@@ -25,7 +27,6 @@ export default function Home() {
         <FaqSection />
         <CtaSection />
       </main>
-
       <Footer />
     </>
   );
