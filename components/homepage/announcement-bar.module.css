@@ -1,5 +1,6 @@
 /* ==========================================
    ANNOUNCEMENT BAR — Buildchem Branded
+   Blue Theme · Fixed Position · Responsive
    ========================================== */
 .announcementBar {
   background: linear-gradient(90deg, #003366 0%, #0055aa 100%);
@@ -54,6 +55,7 @@
 @media (max-width: 768px) {
   .announcementBar {
     padding: 12px 15px;
+    top: 60px; /* ✅ Inayos ang pwesto sa mas maliit na screen */
   }
   .text {
     font-size: 13.5px;
@@ -69,6 +71,7 @@
 @media (max-width: 480px) {
   .announcementBar {
     padding: 14px 12px;
+    top: 50px; /* ✅ Mas mataas pa nang kaunti sa mobile */
   }
   .content {
     gap: 5px;
