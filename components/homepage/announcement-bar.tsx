@@ -7,11 +7,11 @@ export default function AnnouncementBar() {
       <div className={styles.content}>
         <span className={styles.icon}>📢</span>
         <p className={styles.text}>
-          All Buildchem Solutions Inc branches will be closed on{" "}
-          <span className={styles.badge}>November 1–2</span>. Regular office
-          operations will resume on{" "}
-          <span className={styles.badge}>Tuesday, November 3, 2026</span>.
-          Thank you.
+          Temporary Office Suspension for the ASEAN Summit from{" "}
+          <span className={styles.badge}>Nov. 16–18, 2026</span>. Regular Office
+          Operations Will Resume on{" "}
+          <span className={styles.badge}>Thursday, November 19, 2026</span>.
+          Thank You.
         </p>
       </div>
     </div>
