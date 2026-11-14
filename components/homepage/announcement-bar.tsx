@@ -7,7 +7,7 @@ export default function AnnouncementBar() {
       <div className={styles.content}>
         <span className={styles.icon}>📢</span>
         <p className={styles.text}>
-          All Buildchem Solutions Corporation branches will be closed on{" "}
+          All Buildchem Solutions Inc branches will be closed on{" "}
           <span className={styles.badge}>November 1–2</span>. Regular office
           operations will resume on{" "}
           <span className={styles.badge}>Tuesday, November 3, 2026</span>.
